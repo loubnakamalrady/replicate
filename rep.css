@@ -1,0 +1,431 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.docplanner-img{
+    margin-top: 8px;
+    padding-right: 10px;
+    width: 12%;
+    height: 50%;
+}
+
+.docplanner-name{
+    margin-top: 7px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1,191,165);
+}
+
+.docplanner-name1{
+    margin-top: 7px;
+    padding-left: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(171,171,171);
+}
+
+
+
+.leftsided-nav{
+    display: flex;
+}
+
+.rightsided-nav{
+    display: flex;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.aboutus{
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1,191,165);
+
+}
+
+
+.career{
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(192,192,192);
+}
+
+.career:hover{
+    color: rgb(1,191,165);
+}
+
+.department{
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(192,192,192);
+}
+
+.department:hover{
+    color: rgb(1,191,165);
+}
+
+
+.middle_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.parag{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: rgb(0, 179, 155);
+}
+
+.parags{
+    display: flex;
+    width: 900px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(116, 116, 116);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none solid rgb(116, 116, 116);;
+}
+
+.categories{
+    display: flex;
+    padding: 50px;
+    
+}
+
+.containers{
+    width: 320px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#for-doctors{
+    background-color: rgb(80, 143, 226);
+}
+
+#for-patients{
+    background-color: rgb(25, 209, 185);
+}
+
+#for-clinics{
+    background-color: rgb(49, 60, 72);
+}
+
+.the-patients{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.patient-div{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    color: white;
+    margin-top: 40px;
+}
+
+.select-countries{
+    margin-top: 20px;
+}
+
+.content-div{
+    width: 220px;
+    font-size: 25px;
+}
+
+.content-div h4{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.content-div p{
+    margin-top: 10px;
+}
+
+.content-div i{
+    margin-bottom: 0;
+}
+
+select{
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: white;
+    font-size: large;
+}
+
+.brand1{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.gipo img{
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%);
+}
+
+.gipo img:hover{
+    filter: grayscale(0%);
+}
+
+.recommends{
+    display: flex;
+    flex-direction: row;
+}
+
+.parr{
+    width: 250px;
+    font-size: 26px;
+    color: rgb(0, 179, 155);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    margin-right: 30px;
+}
+li{
+    list-style-type: none;
+    fill: rgb(151, 150, 150);
+}
+
+.brands{
+    margin-left: 30px;
+
+}
+
+.tuotempo{
+    margin-left: 20px;
+    filter: grayscale(100%);
+}
+
+.jameda img{
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.jameda img:hover{
+    filter: grayscale(0%);
+}
+
+.tuotempo:hover{
+    filter: grayscale(0%);
+}
+
+
+.feegow{
+    margin-left: 8px;
+    filter: grayscale(100%);
+}
+
+.clinicloud{
+    filter: grayscale(100%);
+}
+
+.clinicloud:hover{
+    filter: grayscale(0%);
+}
+
+.feegow:hover{
+    filter: grayscale(0%);
+}
+
+.greendiv{
+    width: 100%;
+    background-color: rgb(223, 248, 247);
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sygnet{
+    width: 500px;
+    height: 363px;
+    background: url(sygnet.png);
+    background-position-x: -120px;
+    background-position-y: 50px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.leader{
+    width: 150px;
+    height: 220px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 28px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leader img{
+    margin-bottom: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.leader h3{
+    margin-top: 5px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 179, 155);
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.leader p{
+    margin-left: 10px;
+}
+
+.small-containers{
+    display: flex;
+    flex-direction: row;
+}
+
+.container1{
+    margin-top: 55px;
+}
+
+.left-div h3{
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 179, 155);
+}
+
+.left-div {
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 150px;
+    
+}
+
+.down-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.down-div h3{
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 179, 155);
+}
+
+.down-div p{
+    color: rgb(116 , 116, 116);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.images9{
+    display: flex;
+
+}
+
+.office__desc{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.office__desc a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+.office__desc button{
+    margin-left: 150px;
+    background-color: rgb(65, 132, 220);
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.JOINUS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+}
+
+.JOINUS h3{
+    font-size: xx-large;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.JOINUS button{
+    background-color: rgb(65, 132, 220);
+    color: white;
+    border: 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+footer{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: rgb(171, 171, 171);
+}
+
+hr{
+    opacity: 0.2;
+}
+
+li:hover{
+    fill: rgb(0, 179, 155);
+}
+
+button:hover{
+    background-color: rgb(22, 98, 198);
+}
+
+
+
+
+
